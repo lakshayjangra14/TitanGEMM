@@ -7,4 +7,6 @@ usingf32 = float;
 using u32 = unsigned int;
 
 //CUDA error check
-#define 
+#define CUDA_CHECK(call) do {
+
+}
