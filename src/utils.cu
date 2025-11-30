@@ -16,4 +16,5 @@ struct HMatrix {
   int ld() const {return cols; }
 };
 
-static 
+static std::mt19937 rng(1337);
+static std::uniform_real_distribution<float> dist(-1.0f, 1.0f)
